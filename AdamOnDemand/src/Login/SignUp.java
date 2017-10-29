@@ -12,7 +12,7 @@ public class SignUp {
 
 	ChromeDriver driver;
 	@BeforeTest
-	
+	//login page
 	public void SignIn() throws InterruptedException
 	{
 		System.setProperty("webdriver.chrome.driver", "D:\\Eclipse\\chromedriver_win32\\chromedriver.exe");
